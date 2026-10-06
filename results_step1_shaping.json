@@ -1,0 +1,716 @@
+{
+  "label": "step1_shaping",
+  "elapsed_s": 50.25649045300088,
+  "provider": {
+    "admitted": 41,
+    "rejected_rpm": 0,
+    "rejected_tpm": 59,
+    "limits": {
+      "rpm": 500,
+      "tpm": 30000,
+      "window_s": 60.0
+    }
+  },
+  "requests": [
+    {
+      "user": "user-8",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.6190182459977223,
+      "total_s": 3.841385405998153
+    },
+    {
+      "user": "user-5",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.7368688189999375,
+      "total_s": 4.011674100998789
+    },
+    {
+      "user": "user-9",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.5237397490018338,
+      "total_s": 4.046190244000172
+    },
+    {
+      "user": "user-2",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.7007404299984046,
+      "total_s": 4.220862153997587
+    },
+    {
+      "user": "user-0",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.4040494610017049,
+      "total_s": 4.34767791700142
+    },
+    {
+      "user": "user-1",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.5700478520011529,
+      "total_s": 4.385119261001819
+    },
+    {
+      "user": "user-16",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.6250774939981056,
+      "total_s": 4.700164691999817
+    },
+    {
+      "user": "user-3",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.6949916619996657,
+      "total_s": 5.047314315997937
+    },
+    {
+      "user": "user-19",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.40245780799887143,
+      "total_s": 5.097091989999171
+    },
+    {
+      "user": "user-11",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.6529608380005811,
+      "total_s": 5.099186847000965
+    },
+    {
+      "user": "user-12",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.48749532399961026,
+      "total_s": 5.988750890999654
+    },
+    {
+      "user": "user-14",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.6130038160008553,
+      "total_s": 6.094953654999699
+    },
+    {
+      "user": "user-4",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.4182695170020452,
+      "total_s": 6.5785086390023935
+    },
+    {
+      "user": "user-13",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.4043225909990724,
+      "total_s": 6.6495228839994525
+    },
+    {
+      "user": "user-6",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.6755568970002059,
+      "total_s": 7.299402664000809
+    },
+    {
+      "user": "user-7",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.8582058329993743,
+      "total_s": 7.603068436001195
+    },
+    {
+      "user": "user-15",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.6465058870016946,
+      "total_s": 7.710835603000305
+    },
+    {
+      "user": "user-18",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.8282676769995305,
+      "total_s": 7.924512935998791
+    },
+    {
+      "user": "user-17",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.5568778199994995,
+      "total_s": 7.97862418600198
+    },
+    {
+      "user": "user-10",
+      "turn": 1,
+      "status": "success",
+      "ttft_s": 0.5925977300030354,
+      "total_s": 8.331155454001419
+    },
+    {
+      "user": "user-19",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.7599095820005459,
+      "total_s": 3.7313409650014364
+    },
+    {
+      "user": "user-2",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.5041716390005604,
+      "total_s": 4.063697867000883
+    },
+    {
+      "user": "user-5",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.691651766999712,
+      "total_s": 5.508738137999899
+    },
+    {
+      "user": "user-9",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.3410066550022748,
+      "total_s": 7.12464814499981
+    },
+    {
+      "user": "user-1",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.437975141001516,
+      "total_s": 7.596451973000512
+    },
+    {
+      "user": "user-0",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.7153111490006268,
+      "total_s": 4.615270476999285
+    },
+    {
+      "user": "user-4",
+      "turn": 2,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.0043576239986578
+    },
+    {
+      "user": "user-16",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.760553459997027,
+      "total_s": 6.723191744997166
+    },
+    {
+      "user": "user-13",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.7752342040002986,
+      "total_s": 6.933033496999997
+    },
+    {
+      "user": "user-3",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.5737618120001571,
+      "total_s": 5.622803334998025
+    },
+    {
+      "user": "user-6",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.4203015190032602,
+      "total_s": 7.209292144001665
+    },
+    {
+      "user": "user-11",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.6793866490006621,
+      "total_s": 7.305473214997619
+    },
+    {
+      "user": "user-12",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.38366380899969954,
+      "total_s": 6.3061685519969615
+    },
+    {
+      "user": "user-8",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.6688150900008623,
+      "total_s": 6.894916387002013
+    },
+    {
+      "user": "user-2",
+      "turn": 3,
+      "status": "success",
+      "ttft_s": 0.32474315099898377,
+      "total_s": 3.4199950379988877
+    },
+    {
+      "user": "user-18",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.4819461030019738,
+      "total_s": 7.559740602002421
+    },
+    {
+      "user": "user-17",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.7130337849994248,
+      "total_s": 5.035700967000594
+    },
+    {
+      "user": "user-7",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.6005015170012484,
+      "total_s": 5.685979188001511
+    },
+    {
+      "user": "user-15",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.40389160700215143,
+      "total_s": 6.55508050500066
+    },
+    {
+      "user": "user-19",
+      "turn": 3,
+      "status": "success",
+      "ttft_s": 0.4004735750022519,
+      "total_s": 6.923327626001992
+    },
+    {
+      "user": "user-5",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.01036902700070641
+    },
+    {
+      "user": "user-10",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.37148336400059634,
+      "total_s": 7.648740388001897
+    },
+    {
+      "user": "user-4",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009574865998729365
+    },
+    {
+      "user": "user-14",
+      "turn": 2,
+      "status": "success",
+      "ttft_s": 0.4787278570001945,
+      "total_s": 7.538891577998584
+    },
+    {
+      "user": "user-0",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.011708699999871897
+    },
+    {
+      "user": "user-12",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.010147780001716455
+    },
+    {
+      "user": "user-1",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.00618270700215362
+    },
+    {
+      "user": "user-9",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.0060270139983913396
+    },
+    {
+      "user": "user-16",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.005821294002089417
+    },
+    {
+      "user": "user-11",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009830316001171013
+    },
+    {
+      "user": "user-6",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009762238998519024
+    },
+    {
+      "user": "user-13",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.005471000000397908
+    },
+    {
+      "user": "user-8",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009804053999687312
+    },
+    {
+      "user": "user-2",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.006332513999950606
+    },
+    {
+      "user": "user-7",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.005393841001932742
+    },
+    {
+      "user": "user-15",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.00827755799764418
+    },
+    {
+      "user": "user-3",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.010000567002862226
+    },
+    {
+      "user": "user-19",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009464817998377839
+    },
+    {
+      "user": "user-13",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009573629999067634
+    },
+    {
+      "user": "user-5",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.005250213002000237
+    },
+    {
+      "user": "user-18",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.00924353100344888
+    },
+    {
+      "user": "user-17",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.008514398999977857
+    },
+    {
+      "user": "user-10",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.005240979000518564
+    },
+    {
+      "user": "user-0",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.005550711997784674
+    },
+    {
+      "user": "user-12",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.004997362000722205
+    },
+    {
+      "user": "user-4",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.0091083309998794
+    },
+    {
+      "user": "user-6",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.004855748000409221
+    },
+    {
+      "user": "user-14",
+      "turn": 3,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.00694998299877625
+    },
+    {
+      "user": "user-9",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.008031083998503163
+    },
+    {
+      "user": "user-7",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.005086503002530662
+    },
+    {
+      "user": "user-11",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.02735672900234931
+    },
+    {
+      "user": "user-16",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.026273802999639884
+    },
+    {
+      "user": "user-2",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009142269002040848
+    },
+    {
+      "user": "user-1",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009099172999412986
+    },
+    {
+      "user": "user-19",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009139901001617545
+    },
+    {
+      "user": "user-10",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.004518382000242127
+    },
+    {
+      "user": "user-15",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.00797673800116172
+    },
+    {
+      "user": "user-14",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009471348999795737
+    },
+    {
+      "user": "user-13",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.00964409500011243
+    },
+    {
+      "user": "user-8",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.010185782997723436
+    },
+    {
+      "user": "user-3",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009193744997901376
+    },
+    {
+      "user": "user-9",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009254258002329152
+    },
+    {
+      "user": "user-1",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009047166000527795
+    },
+    {
+      "user": "user-5",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009199955999065423
+    },
+    {
+      "user": "user-4",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009277318997192197
+    },
+    {
+      "user": "user-6",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.004988854001567233
+    },
+    {
+      "user": "user-11",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.005081172999780392
+    },
+    {
+      "user": "user-15",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.004764404002344236
+    },
+    {
+      "user": "user-0",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.005193640001380118
+    },
+    {
+      "user": "user-17",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009092631000385154
+    },
+    {
+      "user": "user-18",
+      "turn": 4,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009434209001483396
+    },
+    {
+      "user": "user-16",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009234229000867344
+    },
+    {
+      "user": "user-7",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009093340999243082
+    },
+    {
+      "user": "user-3",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009776410999620566
+    },
+    {
+      "user": "user-12",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.008840653998049675
+    },
+    {
+      "user": "user-10",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009164080998743884
+    },
+    {
+      "user": "user-8",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009182208999845898
+    },
+    {
+      "user": "user-18",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.0055573230019945186
+    },
+    {
+      "user": "user-14",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.009192466000968125
+    },
+    {
+      "user": "user-17",
+      "turn": 5,
+      "status": "rate_limited",
+      "ttft_s": null,
+      "total_s": 0.008848567002132768
+    }
+  ]
+}

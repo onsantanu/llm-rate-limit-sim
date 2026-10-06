@@ -1,0 +1,25 @@
+services:
+  mock-provider:
+    build: ./mock_provider
+    ports: ["8001:8000"]
+    environment:
+      RPM_LIMIT: 500
+      TPM_LIMIT: 30000      # tight case; try 200000 for a generous tier
+      WINDOW_SECONDS: 60
+
+  naive-app:
+    build: ./naive_app
+    ports: ["8000:8000"]
+    environment:
+      PROVIDER_URL: http://mock-provider:8000/v1/chat/completions
+      MAX_TOKENS: 1000
+    depends_on: [mock-provider]
+
+  gateway-app:
+    build: ./gateway_app
+    ports: ["8002:8000"]
+    environment:
+      PROVIDER_URL: http://mock-provider:8000/v1/chat/completions
+      MAX_TOKENS: 500
+      HISTORY_TOKEN_BUDGET: 600
+    depends_on: [mock-provider]
