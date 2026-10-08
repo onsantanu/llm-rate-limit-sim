@@ -1,11 +1,17 @@
 services:
+  redis:
+    image: redis:7-alpine
+
   mock-provider:
     build: ./mock_provider
     ports: ["8001:8000"]
     environment:
       RPM_LIMIT: 500
-      TPM_LIMIT: 30000      # tight case; try 200000 for a generous tier
+      TPM_LIMIT: 30000      # chat model (mock-gpt): tight case; try 200000 for a generous tier
+      MINI_RPM_LIMIT: 500   # summary model (mock-mini): separate, larger pool
+      MINI_TPM_LIMIT: 200000
       WINDOW_SECONDS: 60
+      SEED: 42              # repeatable reply lengths; remove for fully random runs
 
   naive-app:
     build: ./naive_app
@@ -13,6 +19,8 @@ services:
     environment:
       PROVIDER_URL: http://mock-provider:8000/v1/chat/completions
       MAX_TOKENS: 1000
+      SEND_END_USER_ID: "true"            # keyed hash of the user ID, never the raw ID
+      END_USER_ID_SECRET: demo-secret-change-me
     depends_on: [mock-provider]
 
   gateway-app:
@@ -22,4 +30,14 @@ services:
       PROVIDER_URL: http://mock-provider:8000/v1/chat/completions
       MAX_TOKENS: 500
       HISTORY_TOKEN_BUDGET: 600
-    depends_on: [mock-provider]
+      REDIS_URL: redis://redis:6379/0
+      RPM_LIMIT: 500        # must match the provider's limits
+      TPM_LIMIT: 30000
+      MINI_RPM_LIMIT: 500
+      MINI_TPM_LIMIT: 200000
+      WINDOW_SECONDS: 60
+      WAIT_DEADLINE_S: 10   # max queue wait before a "busy" reply; try 600 for unbounded
+      PRIMARY_WAIT_S: 3     # max wait for the chat model before falling back to mock-mini
+      SEND_END_USER_ID: "true"
+      END_USER_ID_SECRET: demo-secret-change-me
+    depends_on: [mock-provider, redis]

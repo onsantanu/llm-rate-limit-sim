@@ -1,0 +1,834 @@
+{
+  "label": "step3",
+  "seed": 42,
+  "error_rate": 0.0,
+  "outage": null,
+  "elapsed_s": 69.70595055400008,
+  "provider": {
+    "mock-gpt": {
+      "admitted": 38,
+      "rejected_rpm": 0,
+      "rejected_tpm": 0,
+      "errors": 0,
+      "rpm": 500,
+      "tpm": 30000
+    },
+    "mock-mini": {
+      "admitted": 142,
+      "rejected_rpm": 0,
+      "rejected_tpm": 0,
+      "errors": 0,
+      "rpm": 500,
+      "tpm": 200000
+    }
+  },
+  "gateway": {
+    "fallbacks": 62,
+    "primary_skipped": 62,
+    "retries": 0,
+    "breaker_trips": 0,
+    "interrupted_streams": 0
+  },
+  "requests": [
+    {
+      "user": "user-9",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.6187429020001218,
+      "total_s": 3.292789642000571
+    },
+    {
+      "user": "user-11",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.8598901529994691,
+      "total_s": 3.482953378000275
+    },
+    {
+      "user": "user-7",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.42717431299934105,
+      "total_s": 3.8764256399999795
+    },
+    {
+      "user": "user-18",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.8941452109993406,
+      "total_s": 4.258279329999823
+    },
+    {
+      "user": "user-0",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.5980391780003629,
+      "total_s": 4.50774205200014
+    },
+    {
+      "user": "user-10",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.730382720000307,
+      "total_s": 5.057317815000715
+    },
+    {
+      "user": "user-1",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.5335695090006993,
+      "total_s": 5.576447039999948
+    },
+    {
+      "user": "user-2",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.6268371839996689,
+      "total_s": 5.594272304999322
+    },
+    {
+      "user": "user-13",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.5477710049999587,
+      "total_s": 5.678057307999552
+    },
+    {
+      "user": "user-15",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 1.0108138400000826,
+      "total_s": 5.678469565000341
+    },
+    {
+      "user": "user-17",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.9541636809999545,
+      "total_s": 5.727924611999697
+    },
+    {
+      "user": "user-4",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.8289046190002409,
+      "total_s": 5.747197601000153
+    },
+    {
+      "user": "user-3",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.7541275049998148,
+      "total_s": 6.0581085419999
+    },
+    {
+      "user": "user-16",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.7857230839999829,
+      "total_s": 6.072817925999516
+    },
+    {
+      "user": "user-14",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.6069468740006414,
+      "total_s": 6.298813823000273
+    },
+    {
+      "user": "user-6",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.8671075760003077,
+      "total_s": 6.417257834999873
+    },
+    {
+      "user": "user-12",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.9061721269999907,
+      "total_s": 6.759191856000143
+    },
+    {
+      "user": "user-5",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.689458542000466,
+      "total_s": 7.452913651000017
+    },
+    {
+      "user": "user-8",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.9014669160005724,
+      "total_s": 8.190642837000269
+    },
+    {
+      "user": "user-19",
+      "turn": 1,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.8830787010001586,
+      "total_s": 8.345807691000118
+    },
+    {
+      "user": "user-9",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.39460291000068537,
+      "total_s": 5.6207343290006975
+    },
+    {
+      "user": "user-5",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.48371826600032364,
+      "total_s": 3.1572234100003698
+    },
+    {
+      "user": "user-7",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.4287060399992697,
+      "total_s": 7.6361033159992076
+    },
+    {
+      "user": "user-13",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.4767768649999198,
+      "total_s": 6.607778866999979
+    },
+    {
+      "user": "user-12",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.34968117700009316,
+      "total_s": 4.3412113140002475
+    },
+    {
+      "user": "user-11",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.5378971430000092,
+      "total_s": 7.71965887099941
+    },
+    {
+      "user": "user-2",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.5755942850000793,
+      "total_s": 6.970714641000086
+    },
+    {
+      "user": "user-1",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.39818375400045625,
+      "total_s": 6.151746659999844
+    },
+    {
+      "user": "user-18",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.4754906389998723,
+      "total_s": 3.9199907109996275
+    },
+    {
+      "user": "user-0",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.39399737100029597,
+      "total_s": 4.398794273000021
+    },
+    {
+      "user": "user-19",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.3548384449995865,
+      "total_s": 5.872122424999361
+    },
+    {
+      "user": "user-4",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.7898785710003722,
+      "total_s": 8.353748776999964
+    },
+    {
+      "user": "user-15",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.6968265329996939,
+      "total_s": 6.156558642999698
+    },
+    {
+      "user": "user-10",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.4275772490000236,
+      "total_s": 8.040747066000222
+    },
+    {
+      "user": "user-8",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.548489502000848,
+      "total_s": 4.939106348000678
+    },
+    {
+      "user": "user-3",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.36435633699966274,
+      "total_s": 5.717494491999787
+    },
+    {
+      "user": "user-16",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.5882471280001482,
+      "total_s": 5.3577446360004615
+    },
+    {
+      "user": "user-17",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-gpt",
+      "ttft_s": 0.7945055479995062,
+      "total_s": 8.38731395800005
+    },
+    {
+      "user": "user-6",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4201839139996082,
+      "total_s": 7.263088427999719
+    },
+    {
+      "user": "user-14",
+      "turn": 2,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.698559820999435,
+      "total_s": 7.327533523999591
+    },
+    {
+      "user": "user-7",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4464715880003496,
+      "total_s": 5.753418387999773
+    },
+    {
+      "user": "user-9",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.3815341229992555,
+      "total_s": 3.697695699999713
+    },
+    {
+      "user": "user-13",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.32790894099980505,
+      "total_s": 4.92448891299955
+    },
+    {
+      "user": "user-5",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.41275463799956924,
+      "total_s": 4.751900088999719
+    },
+    {
+      "user": "user-4",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6086708020002334,
+      "total_s": 3.443491346999508
+    },
+    {
+      "user": "user-12",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.3172023889992488,
+      "total_s": 7.677441350999288
+    },
+    {
+      "user": "user-11",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.39637886800028355,
+      "total_s": 3.7357929890004016
+    },
+    {
+      "user": "user-2",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.3417431560001205,
+      "total_s": 8.063351972000419
+    },
+    {
+      "user": "user-0",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.48457637899991823,
+      "total_s": 6.045439067999723
+    },
+    {
+      "user": "user-15",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4716474130000279,
+      "total_s": 6.140900162000435
+    },
+    {
+      "user": "user-1",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.5493343660000392,
+      "total_s": 5.4683562000000165
+    },
+    {
+      "user": "user-10",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.5380984439998429,
+      "total_s": 5.293214583000008
+    },
+    {
+      "user": "user-8",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.616825283000253,
+      "total_s": 4.5592640810000375
+    },
+    {
+      "user": "user-16",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.49993544700009807,
+      "total_s": 6.2771425760001875
+    },
+    {
+      "user": "user-19",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4377228710000054,
+      "total_s": 4.2245407649998015
+    },
+    {
+      "user": "user-3",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4666530220001732,
+      "total_s": 4.391019638999751
+    },
+    {
+      "user": "user-18",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.7724775870001395,
+      "total_s": 6.351035586000762
+    },
+    {
+      "user": "user-7",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6587128119999761,
+      "total_s": 3.7706901459996516
+    },
+    {
+      "user": "user-9",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.7376830969997172,
+      "total_s": 6.607857539000179
+    },
+    {
+      "user": "user-14",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6146253099996102,
+      "total_s": 7.990891078999994
+    },
+    {
+      "user": "user-17",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6443738320003831,
+      "total_s": 8.025949376000426
+    },
+    {
+      "user": "user-6",
+      "turn": 3,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.5513816969996697,
+      "total_s": 5.369396932999734
+    },
+    {
+      "user": "user-12",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.39091605300018273,
+      "total_s": 5.1894742980002775
+    },
+    {
+      "user": "user-4",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4301979729998493,
+      "total_s": 3.2627866820002964
+    },
+    {
+      "user": "user-2",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.5279235709995191,
+      "total_s": 5.003154762999657
+    },
+    {
+      "user": "user-5",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4265591059993312,
+      "total_s": 5.260986655999659
+    },
+    {
+      "user": "user-8",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.3404982000001837,
+      "total_s": 6.290264115999889
+    },
+    {
+      "user": "user-15",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.7784729840004729,
+      "total_s": 3.6345546210004613
+    },
+    {
+      "user": "user-13",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.573098611000205,
+      "total_s": 4.782946531000562
+    },
+    {
+      "user": "user-16",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6046576059998188,
+      "total_s": 6.618430524999894
+    },
+    {
+      "user": "user-10",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.7047538569995595,
+      "total_s": 3.4984971629992287
+    },
+    {
+      "user": "user-11",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.7647906230004082,
+      "total_s": 7.633664076000059
+    },
+    {
+      "user": "user-6",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4826624030001767,
+      "total_s": 4.128734681000424
+    },
+    {
+      "user": "user-7",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4439542629997959,
+      "total_s": 3.1397598060002565
+    },
+    {
+      "user": "user-0",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.5261386959991796,
+      "total_s": 7.285632436000014
+    },
+    {
+      "user": "user-14",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6505616439999358,
+      "total_s": 5.669483352000498
+    },
+    {
+      "user": "user-19",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.5729213949998666,
+      "total_s": 7.059103553000568
+    },
+    {
+      "user": "user-18",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.5656941950001055,
+      "total_s": 8.346414806000212
+    },
+    {
+      "user": "user-17",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4621433700003763,
+      "total_s": 4.762037575999784
+    },
+    {
+      "user": "user-1",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.7899843069999406,
+      "total_s": 8.12623841200002
+    },
+    {
+      "user": "user-3",
+      "turn": 4,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6980649150000318,
+      "total_s": 6.456400850000136
+    },
+    {
+      "user": "user-9",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4443301239998618,
+      "total_s": 7.162295694999557
+    },
+    {
+      "user": "user-15",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4279430369997499,
+      "total_s": 3.5819631599997592
+    },
+    {
+      "user": "user-4",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6802412719998756,
+      "total_s": 5.03864503999921
+    },
+    {
+      "user": "user-12",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6056169479998061,
+      "total_s": 7.636070070000642
+    },
+    {
+      "user": "user-8",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6590722470000401,
+      "total_s": 5.6751732470002025
+    },
+    {
+      "user": "user-2",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.538905932000489,
+      "total_s": 5.423650173999704
+    },
+    {
+      "user": "user-5",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4388352260002648,
+      "total_s": 6.22823817400058
+    },
+    {
+      "user": "user-10",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4986674000001585,
+      "total_s": 4.185597671999858
+    },
+    {
+      "user": "user-11",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.42580141200051,
+      "total_s": 5.756862150000416
+    },
+    {
+      "user": "user-6",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.39258426099968347,
+      "total_s": 6.070631871999467
+    },
+    {
+      "user": "user-13",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.7032889470001464,
+      "total_s": 6.2806703400001425
+    },
+    {
+      "user": "user-14",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.6813012829998115,
+      "total_s": 7.066840634000073
+    },
+    {
+      "user": "user-16",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.33053648700024496,
+      "total_s": 6.174901993000276
+    },
+    {
+      "user": "user-0",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.43143139899984817,
+      "total_s": 4.467390404000071
+    },
+    {
+      "user": "user-18",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.4297201640001731,
+      "total_s": 3.785822982999889
+    },
+    {
+      "user": "user-3",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.7208846710000216,
+      "total_s": 4.431987199999639
+    },
+    {
+      "user": "user-19",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.7898511059993325,
+      "total_s": 7.855755937999675
+    },
+    {
+      "user": "user-1",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.547630238000238,
+      "total_s": 4.8316676640006335
+    },
+    {
+      "user": "user-17",
+      "turn": 5,
+      "status": "success",
+      "model": "mock-mini",
+      "ttft_s": 0.47040375399956247,
+      "total_s": 7.846975043999919
+    }
+  ]
+}
